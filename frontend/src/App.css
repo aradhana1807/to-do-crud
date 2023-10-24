@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.appLogo-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+img.appLogo {
+  height: 115px;
+}
+
+div.logged-in{
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.link-div {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.link-div a {
+  text-decoration: none;
+  font-size: larger;
+  color: inherit;
+}
+
+form.login,
+form.register {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form h1 {
+  text-align: center;
+}
+
+input {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  padding: 1em .7em;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+    -6px -6px 10px rgba(255, 255, 255, .5),
+    6px 6px 8px rgba(255, 255, 255, .075),
+    6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+button {
+  font-family: 'Mooli', sans-serif;
+  width: 100%;
+  padding: 0.8em 4em;
+  background: #efefef;
+  border: none;
+  border-radius: .5rem;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+    -6px -6px 10px rgba(255, 255, 255, .5),
+    6px 6px 8px rgba(255, 255, 255, .075),
+    6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+    -2px -2px 4px rgba(255, 255, 255, .4),
+    2px 2px 2px rgba(255, 255, 255, .05),
+    2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+button:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+    inset -2px -2px 4px rgba(255, 255, 255, .5),
+    inset 2px 2px 2px rgba(255, 255, 255, .075),
+    inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
